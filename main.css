@@ -1,0 +1,155 @@
+
+body{
+  margin: 0;
+  position:relative;
+
+}
+
+
+h1{
+  display: inline-block;
+  width: 245px;
+  font-family: 'Roboto', sans-serif;
+}
+.landing{
+  background-image: url('./forest-trees-waterfall.jpg');
+  background-position: center ;
+}
+
+.yellow-button{
+  color: yellow;
+}
+section{
+  min-height: 100vh;
+}
+
+section#about{
+  background-color: #eee;
+}
+
+section#resume {
+  max-width: 800px;
+  margin: auto;
+}
+
+section.purple-title h2{
+  color: rgb(128, 0, 128);
+
+}
+
+
+#fancy{
+  background-color: red;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 3px 0 0 #555;
+  position: relative;
+  color:#fff;
+  text-shadow: 1px 1px 2px #000;
+  transition: all .3s;
+  left: 50%;
+  top: 0;
+ transform: translate(-50%, 50px);
+
+}
+
+#fancy:hover{
+background-color:  rgb(255,50,50);
+
+}
+#fancy:active{
+  box-shadow: none;
+  top: -3px;
+}
+form input{
+  display: block;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+
+}
+form input:focus {
+ outline: none;
+ box-shadow: inset 0 1px 4px 0 #000, 0 2px 4px -2px red;
+
+}
+form input[type="submit"]{
+padding: 5px 15px;
+background-color: green;
+
+color: #fff;
+cursor: pointer;
+text-transform: capitalize;
+font-family: serif;
+
+}
+
+#gallery{
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+
+}
+#gallery figure{
+  max-width: 200px;
+  display: inline-block;
+}
+#gallery figure img{
+  width: 100%;
+
+}
+#gallery figcaption{
+  text-align: center;
+}
+#cards{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 900px;
+  margin: auto;
+}
+#cards .card{
+  max-width: 200px;
+  margin: 20px;
+}
+.card img{
+  width: 100%;
+
+}
+.card:hover img  {
+        transform: scale(1.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+
+#resume h4,
+#resume p {
+  margin-left: 30px;
+}
+#resume h4 {
+  margin-bottom: 5px;
+}
+#resume p{
+  margin-top: 5px;
+}
+#resume ul{
+  list-style: none;
+}
+#resume ul li:before{
+  content: '✓ ';
+}
+#resume li{
+   display:list-item;
+
+   margin-top: 5px;
+   margin-bottom:5px;
+   margin-left: 0;
+   margin-right: 0;
+}
+#resume h3{
+  text-shadow: 1px 1px #778899;
+}
